@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image in text</title>
+    <style>
+        body{background-color: rgb(5, 5, 10);}
+        H1{
+            font-size: 50px;
+            text-align: center;
+        }
+        .text{
+            background-image: url("https://cdn.pixabay.com/photo/2018/04/06/00/25/nature-3294681_960_720.jpg");
+            background-position: center;
+            background-size: cover;
+            background-clip: text;
+           color: transparent;
+            -webkit-background-clip: text;
+        }
+        *{
+            margin:0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        ul{list-style: none;}
+        nav{
+            background-color: blueviolet;
+            PADDING:5PX 10PX;
+            color: #fff;
+        }
+        .main-menu{
+            display:flex;
+            list-style: none;
+        }
+        .menu-item{
+            position: relative;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .menu-item a{
+            text-decoration: none;
+            color: rgb(249, 240, 255);
+        }
+        .menu-item:hover{background-color: #575757;
+        }
+        .dropdown{
+            display: none;
+            min-width: 200px;
+            background-color: rgb(150, 127, 255);
+            position: absolute;
+            top: 100%;
+        }
+        .menu-item:hover .dropdown{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="text">
+    <h1 class="text">TTWURJC GIRLS ECHODA</h1></div>
+    <marquee behavior="scrolling" direction="right" STYLE="color:lightgoldenrodyellow;">  TTWURJC GIRLS ECHODA</marquee>
+    <nav>
+        <ul class="main-menu">
+            <a href="#"><li class="menu-item">Home</li></a>
+            <a href="#"><li class="menu-item">Categories
+                <ul class="dropdown">
+                    <a href=""></a><li class="sub-menu-item">Books</li></a>
+                    <a href=""></a><li class="sub-menu-item">Sports</li></a>
+                    <a href=""></a><li class="sub-menu-item">Events</li></a>
+                    <a href=""></a><li class="sub-menu-item">Others</li></a>
+                </ul>
+            </li></a>
+        </ul>
+    </nav>
+
+<marquee behavior="scrolling" direction="left">
+    <img src="https://www.bing.com/th/id/OGC.11f1cdc0ce79b1e709afdfad123a0c31?pid=1.7&rurl=https%3a%2f%2f4.bp.blogspot.com%2f-OqUpcDgvarM%2fWkKj30HONZI%2fAAAAAAAAjcI%2fHicuFv_6-H8QtZCRoALAhbPnNVv3uOprACEwYBhgL%2fs1600%2fstudents_animated.gif&ehk=Bxty7swXjfsAQQmAdGdsYAu%2bhIeC8%2bSnrPlESyMzf%2bE%3d" alt=""
+    width="250" height="150">
+    <img src="https://i.pinimg.com/originals/87/55/7f/87557f681f666c0d963408727ced0755.gif" alt="" width="250" height="150">
+
+    <img src="https://1.bp.blogspot.com/-5QOwO93RUDY/WtYLtSFslxI/AAAAAAAABv0/xP2bbwmeNss-zHCInvIKveQXK5M7sQvEQCLcBGAs/s1600/homework.gif" alt="" width="250" height="150"></marquee>
+
+</body>
+</html>
