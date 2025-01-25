@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shapes of Areas JS Functions</title>
+    <script>
+        function calculate(){
+            a=document.getElementById("a").value;
+            b=document.getElementById("b").value;
+            result=document.getElementById("result");
+            result.innerHTML="The area of Rectangle "+ (a*b);
+      }
+    </script>
+</head>
+<body style="text-align: center; background-image:url(https://cdn.pixabay.com/photo/2016/10/17/02/50/fractal-1746830_1280.jpg) ;color: azure;">
+   <h1 style="font-size: 45px;">Shapes of Areas Calculation</h1>
+    <img src="https://cdn.pixabay.com/photo/2013/07/13/10/08/bevel-156631_1280.png" alt="Rectangle" width="350" height="250">
+    <h1>Rectangle </h1>
+    width: <input id="a"><br>
+    length:<input id="b"><br>
+    <button onclick="calculate()">Result</button>
+    <p id="result"></p>
+    <script>
+          function cal(){
+            s=document.getElementById("s").value;
+            res=document.getElementById("res");
+            res.innerHTML="The area of Square "+ (4*s);
+          }
+    </script>
+    <img src="https://media.istockphoto.com/id/1443722403/vector/horizontal-frame.jpg?s=612x612&w=is&k=20&c=l9NxtE0HyWi35KGN38Sxpzefm2Y_0VeI1bsfzrbQhYE=" alt="square" width="250" height="250">
+<h1>Square</h1>
+Side: <input id="s">
+<button onclick="cal()">Result</button>
+<p id="res"></p>
+<script>
+    function calculat(){
+      bd=document.getElementById("bd").value;
+      h=document.getElementById("h").value;
+      resalt=document.getElementById("resalt");
+      resalt.innerHTML="The area of Triangle "+ (0.5*bd*h);
+    }
+</script>
+<img src="https://media.istockphoto.com/id/2152978150/vector/neon-double-triangular-frame-with-shining-effects.jpg?s=2048x2048&w=is&k=20&c=V4hlt-ng3RVR8rAbcnUp_Fh83NpLR5h0VsAUMQYL0Z8=" alt="square" width="250" height="250">
+<h1>Triangle</h1>
+Bredth: <input id="bd"><br>
+Height: <input id="h"><br>
+<button onclick="calculat()">Result</button>
+<p id="resalt"></p>
+<script>
+    function circle(){
+      r=document.getElementById("r").value;
+      circle=document.getElementById("circle");
+      circle.innerHTML="The area of Circle "+ (3.14*r*r);
+    }
+</script>
+<img src="https://media.istockphoto.com/id/1954111047/vector/circle-frame-border-shape-icon-for-decorative-vintage-doodle-element-for-design-in-vector.jpg?s=2048x2048&w=is&k=20&c=XutUzeYVjl4YTUAfOIj5doXJ5xu977-dX3-xJl88KIU=" alt="square" width="250" height="250">
+<h1>Circle</h1>
+Radious:<input id="r"><br>
+<button onclick="circle()">Result</button>
+<p id="circle"></p>
+</body>
+</html>
