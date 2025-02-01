@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function harika(){
+            a=document.getElementById("a").value;
+            b=document.getElementById("b").value;
+            res=document.getElementById("res");
+            res.innerHTML="Algebric simplification of (a+b)**2: "+(a*a+2*b*a+b*b);
+        }
+    </script>
+</head>
+<body style="background-size:cover; text-align:center; background-image: url(https://cdn.pixabay.com/photo/2018/10/28/10/04/flowers-3778265_640.jpg);">
+    <div style="color: white;">
+    <h1 >ALGEBRIC SIMPLIFICATION FORMULAS</h1>
+    <marquee behavior="scroll" direction="left">My name is Harika. From TGTWURJC G ECHODA. Algebric formula.</marquee>
+    variable1:<input id="a"><br>
+    variable2:<input id="b"><br>
+    <button onclick="harika()">result</button>
+    <p id="res"></p>
+</div>
+    <script>
+        function mouse(){
+            c=document.getElementById("c").value;
+            d=document.getElementById("d").value;
+            re=document.getElementById("re");
+            re.innerHTML="algebric simplificatin of (c-d)**2: "+(c*c-2*d*c*+d*d);
+        }
+    </script>
+    <div style="color: white;">
+    variable1:<input id="c"><br>
+    variable2:<input id="d"><br>
+    <button onclick="mouse()"> result</button>
+    <p id="re"></p>
+</div>
+    <script>
+        function compute(){
+            e=document.getElementById("e").value;
+            f=document.getElementById("f").value;
+            resu=document.getElementById("resu");
+            resu.innerHTML="the algebric simplification of e*e-f*f is: "+(e+f)*(e-f);
+        }
+    </script>
+    <div style="color: white;">
+    variable1:<input id="e"><br>
+    variable2:<input id="f"><br>
+    <button onclick="compute()"> result</button>
+    <p id="resu"></p>
+</div>
+</body>
+</html>
