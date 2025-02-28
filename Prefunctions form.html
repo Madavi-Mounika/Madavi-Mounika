@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms & Predefined Functions</title>
+    <style>
+        button{color:darkgreen;}
+    </style>
+</head>
+<body style="text-align: center; background-image: url(https://media.istockphoto.com/id/1952368018/photo/vibrant-blue-sky-with-white-clouds-in-a-beautiful-summer-day.jpg?s=2048x2048&w=is&k=20&c=-9ulFO1GV-kJCI6Y0NtI5fjTZueyukLJNHzc0mjsKjA=);
+background-size: cover;font-family: Arial, Helvetica, sans-serif;">
+<script>
+var name = prompt('Please type your Name'); 
+document.write('Welcome to TGTWURJC '+name); 
+</script>
+
+    <h1>TGTWURJC Forms</h1>
+    Student name: <input type="text" place holder="Student name" required><br>
+    Place: <input type="text" place holder="Place" required> <br>
+    Mobile number: <input type="tel" place holder="Mobile number"  required><br>
+    Email: <input type="email" place holder="Email" required><br>
+    <Gender:br></Gender:br>
+    Male:<input type="radio" name="gender" required>
+Female: <input type="radio" name="gender" required><br>
+Languages You known:<br>
+Telugu <input type="checkbox" required>
+Hindi <input type="checkbox" required>
+English <input type="checkbox" required><br>
+<button onclick="alert('you have submitted form')">Submit</button><br>
+<script> 
+    var choice = confirm('Are you sure you want to submit form? '); 
+    if(choice){ 
+    document.write('You have clicked OK '); 
+    } 
+    else{ 
+    document.write('You canceled the form '); 
+    } 
+    </script>
+</body>
+</html>
